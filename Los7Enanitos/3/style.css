@@ -1,0 +1,24 @@
+/* La habitacion en total mide 1300x820 */
+body{
+    width: 1280px;
+    height: 800px;
+    background-color: antiquewhite;
+    border: 10px solid gray;
+}
+/*Estilos de las camas, solo se aplican para los elementos en bloque como los div*/
+.cama{
+    background-color: aqua;
+    width: 100px;
+    height: 300px;
+    text-align: center;
+}
+
+/*Aplicamos los efectos que necesitemos para obtener la imagen de nuestro boceto*/
+body{
+    display: flex; /*Nos permite especificar el ancho y el alto de los elementos en linea y acomodarlos como queramos*/
+    flex-direction: row;/*Pone los elementos uno al lado del otro como en una fila*/
+    justify-content: space-between;/*Separa los elementos con el mismo espacio entre ellos*/
+}
+
+
+

@@ -1,0 +1,23 @@
+/* 1: La habitacion en total mide 1300x820 */
+body{
+    width: 1280px;
+    height: 800px;
+    background-color: antiquewhite;
+    border: 10px solid gray;
+}
+/* 2: Estilos de las camas, solo se aplican para los elementos en bloque como los div*/
+.cama{
+    background-color: aqua;
+    width: 100px;
+    height: 300px;
+    text-align: center;
+}
+
+/* 4: Dejamos espacio entre el colchon y su borde*/
+.cama{
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+

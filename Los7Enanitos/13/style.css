@@ -1,0 +1,89 @@
+/* 1: Configuración básica de la habitación */
+body{
+    width: 1280px;
+    height: 800px;
+    background-color: antiquewhite;
+    border: 10px solid gray;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2: Estilos básicos de las camas */
+.cama{
+    background-color: aqua;
+    width: 100px;
+    height: 300px;
+    text-align: center;
+}
+
+/* 4: Espacio entre colchón y borde + convertir a inline-block */
+.cama{
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+/* 5: Espacio entre las camas */
+.cama{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+/* 6: Posicionamiento de Gruñón */
+/* #caja-gruñon{
+    display: inline-block;
+    width: 1115px;
+    position: relative;
+}
+
+#gruñon{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+} */
+
+/* 8: Float left en elementos de bloque */
+/* #contenedor-bloque .cama {
+    float: left;
+    display: block;
+} */
+
+/* 9: Quitar float de la primera caja */
+/* #timido {
+    float: none;
+} */
+
+/* 10: Float left en elementos en línea */
+/* #contenedor-linea .cama {
+    float: left;
+} */
+
+/* 11: Restauramos overflow hidden */
+#contenedor-linea {
+    width: 1260px;
+    border: 1px solid red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#contenedor-bloque {
+    width: 1260px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 12: Float right en elementos en línea */
+/* #contenedor-linea .cama {
+    float: right;
+} */
+
+/* 13: Capa de invisibilidad para Tímido */
+#timido {
+    visibility: hidden;
+}
