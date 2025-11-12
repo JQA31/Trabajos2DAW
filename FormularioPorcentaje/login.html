@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Crear Cuenta</a></h1>
+        <nav>
+            <ul>
+                <!-- Menú para moverse rápido por la página -->
+                <li><a href="#introduction">Introducción</a></li>
+                <li><a href="#causes-consequences">Causas y Consecuencias</a></li>
+                <li><a href="#evidence">Evidencia</a></li>
+                <li><a href="#myths">Mitos</a></li>
+                <li><a href="#solutions">Soluciones</a></li>
+                <li><a href="login.html">Inciar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    <div class="main-container">
+        <aside>
+            <div class="aside-section">
+                <img src="imagen.jpg" alt="Calentamiento Global">
+            </div>
+            <div class="aside-section">
+                <h3>Texto</h3>
+                <div class="testimonial">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Porro nesciunt itaque dolorum autem repellat. 
+                    A sit neque, similique, laboriosam explicabo impedit eligendi voluptatibus ullam nesciunt aspernatur dolor, eius omnis ea.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis nobis blanditiis illo explicabo eaque quasi, 
+                    ut recusandae ad distinctio expedita maxime delectus sit aspernatur maiores sint earum velit aliquid!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit, 
+                    accusamus quo possimus qui esse suscipit aut quos illum tempore est repellendus 
+                    doloribus exercitationem, neque aliquam tenetur, veritatis omnis eligendi!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit, 
+                    accusamus quo possimus qui esse suscipit aut quos illum tempore est repellendus 
+                    doloribus exercitationem, neque aliquam tenetur, veritatis omnis eligendi!</p>
+                </div>
+            </div>
+            <div class="aside-section" id="enlace">
+                <h3><a href="index.html">Enlace</a></h3>
+            </div>
+        </aside>
+        
+        
+
+        <form>
+
+            <div class="boxes">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit, 
+                accusamus quo possimus qui esse suscipit aut quos illum tempore est repellendus 
+                doloribus exercitationem, neque aliquam tenetur, veritatis omnis eligendi!</p>
+            </div>
+
+            <label>Nombre de usuario:</label>
+            <input type="text" name="username" maxlength="10" required>
+            
+            <label>Contraseña:</label>
+            <input type="password" name="password" maxlength="10" required>
+            
+            <div class="boxes">
+                <input type="checkbox" name="news">
+                ¿Deseas recibir noticias sobre nuestra página?
+            </div>
+            
+            <span>Intereses:</span>
+            <div class="boxes"> 
+                <input type="checkbox" name="interests[]" value="medioambiente">
+                Medioambiente
+            </div>
+            <div class="boxes">
+                <input type="checkbox" name="interests[]" value="tecnologia">
+                Tecnología
+            </div>
+            <div class="boxes">
+                <input type="checkbox" name="interests[]" value="ciencia">
+                Ciencia
+            </div>
+            
+            <span>Género:</span>
+            <div class="boxes">
+                <input type="radio" name="gender" value="masculino">
+                Masculino
+            </div>
+            <div class="boxes">
+                <input type="radio" name="gender" value="femenino">
+                Femenino
+            </div>
+            <div class="boxes">
+                <input type="radio" name="gender" value="otro">
+                Otro
+            </div>
+            
+            <label>País:</label>
+            <select name="country">
+                <option value="espana">España</option>
+                <option value="peru">Perú</option>
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="colombia">Colombia</option>          
+            </select>
+            
+            <input type="submit" value="Crear Cuenta">
+        </form>
+    </div>
+    
+    <footer>
+        <p>© 2025 El Cambio Climático Joseph Joel Quispe Alvarez</p>
+    </footer>
+</body>
+</html>
